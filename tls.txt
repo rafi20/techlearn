@@ -1,1 +1,6 @@
-tls
+
+Access using curl and with certs in truststore/pem file
+curl --cacert cacerts_bundle.pem https://kosh.stgfra.prod.e2open.com/kosh/admin/healthcheck?pretty=true
+
+
+
